@@ -11,6 +11,8 @@ This project provisions an AWS Free Tier **Ubuntu 26.04 LTS** EC2 instance in yo
 ├── outputs.tf      # Output values (Public IP, Web URL, SSH command)
 └── README.md       # Project documentation
 ```
+<img width="731" height="320" alt="Screenshot From 2026-11-14 12-22-18" src="https://github.com/user-attachments/assets/65e1d821-d37c-4617-8d83-41e3404d8138" />
+
 
 ## Prerequisites
 
