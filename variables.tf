@@ -31,6 +31,6 @@ variable "public_key_path" {
 variable "html_content" {
   description = "Custom HTML content for the Nginx index page"
   type        = string
-  default     = "<h1>Welcome to the Terraform-managed Nginx Server on Ubuntu</h1>"
+  default     = "<h1>Welcome to the Terraform-managed Nginx Server on Ubuntu By SALEEM S</h1>"
 }
 
