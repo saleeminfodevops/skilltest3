@@ -19,10 +19,10 @@ This project provisions an AWS Free Tier **Ubuntu 26.04 LTS** EC2 instance in yo
 1. **Terraform CLI** installed (`>= 1.5.0`)
   <img width="918" height="540" alt="Screenshot From 2026-11-14 11-39-24" src="https://github.com/user-attachments/assets/7fb384ce-9f02-4119-9d2c-a91009a395db" />
 
-3. **AWS CLI** configured with valid credentials (`aws configure`)
+2. **AWS CLI** configured with valid credentials (`aws configure`)
 <img width="1246" height="308" alt="image" src="https://github.com/user-attachments/assets/0b4c37c9-5bd1-4278-80ac-9a3a4d00708d" />
 
-4. **Local SSH Key Pair** generated at `~/.ssh/terraform-aws-key`:
+3. **Local SSH Key Pair** generated at `~/.ssh/terraform-aws-key`:
    ```bash
    ssh-keygen -t ed25519 -f ~/.ssh/terraform-aws-key -N ""
    ```
