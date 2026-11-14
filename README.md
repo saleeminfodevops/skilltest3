@@ -62,6 +62,8 @@ terraform apply -var="aws_region=ap-south-1"
 ### 4. Verify Deployment
 After `terraform apply` finishes:
 - Open the **`nginx_url`** output in your browser (allow ~45 seconds for `user_data` to install Nginx).
+  <img width="1530" height="586" alt="Screenshot From 2026-11-14 11-57-34" src="https://github.com/user-attachments/assets/2310f8ad-31c6-4c14-a163-d0d3efcc988e" />
+
   <img width="1428" height="320" alt="Screenshot From 2026-11-14 12-15-50" src="https://github.com/user-attachments/assets/721b0b2d-a6a6-414c-a7b0-6db17838d5f2" />
 
 - Run the **`ssh_command`** output in your terminal to log into the server.
